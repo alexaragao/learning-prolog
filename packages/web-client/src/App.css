@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+[data-role="error"] {
+  background-color: #FAE7E7!important;
+  border: 1px solid #F93E3E!important;
+}
+
+[data-role="query"] {
+  border: 1px solid #C1C3C7!important;
+}
+
+[data-role="answer"] {
+  background-color: #EBF3FB!important;
+  border: 1px solid #61AFFE!important;
+}

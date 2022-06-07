@@ -1,0 +1,24 @@
+{
+  "name": "@learning-prolog/server",
+  "version": "1.0.0",
+  "description": "A simple WebSocket Server for prolog queries",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "prolog",
+    "websocket"
+  ],
+  "author": "Alexandre Aragão <github@alexaragao>",
+  "license": "ISC",
+  "dependencies": {
+    "tau-prolog": "^0.3.3",
+    "ws": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
